@@ -1,0 +1,701 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Go Vote!</title>
+  </head>
+
+  <body class="bg-gray-700 text-lg font-sans text-gray-300">
+    <div
+      class="container flex flex-col justify-between items-center lg:px-0 mx-auto px-6 py-6 space-y-2 text-center"
+    >
+      <h1 class="font-extrabold mb-4 text-6xl">
+        <span
+          class="bg-clip-text bg-gradient-to-r from-red-400 text-transparent via-white to-blue-500"
+          >Go Vote!</span
+        >
+      </h1>
+      <h2 class="mb-6 font-semibold text-xl">
+        <a
+          href="https://www.kceb.org/useruploads/11_3_20/Sample_Ballot-Rev_9-4_11-20REV.pdf"
+          class="bg-gray-600 duration-300 hidden hover:bg-gray-900 hover:shadow-xl hover:text-gray-400 lg:inline-block py-2 px-4 rounded shadow text-gray-200 transition"
+          target="_blank"
+        >
+          Jackson County Sample Ballot
+        </a>
+      </h2>
+
+      <h1 class="p-2 text-2xl font-semibold mb-1">President (VP)</h1>
+      <a
+        href="https://www.donaldjtrump.com/"
+        target="_blank"
+        class="hover:text-gray-900"
+        >Donald J. Trump (Michael R. Pence)<span
+          class="text-sm uppercase font-medium text-red-400 ml-1"
+          >REP</span
+        ></a
+      >
+      <a
+        href="https://joebiden.com/"
+        target="_blank"
+        class="hover:text-gray-900"
+        >Joseph R. Biden (Kamala D. Harris)<span
+          class="text-sm uppercase font-medium text-blue-400 ml-1"
+          >DEM</span
+        ></a
+      >
+      <a href="https://jo20.com/" target="_blank" class="hover:text-gray-900"
+        >Jo Jorgensen (Jeremy "Spike" Cohen)<span
+          class="text-sm uppercase font-medium text-yellow-400 ml-1"
+          >LIB</span
+        ></a
+      >
+      <a
+        href="https://howiehawkins.us/"
+        target="_blank"
+        class="hover:text-gray-900"
+        >Howie Hawkins (Angela Nicole Walker)<span
+          class="text-sm uppercase font-medium text-green-400 ml-1"
+          >GRE</span
+        ></a
+      >
+      <a
+        href="https://www.donblankenship.com/"
+        target="_blank"
+        class="hover:text-gray-900"
+        >Don Blankenship (William Mohr)<span
+          class="text-sm uppercase font-medium text-purple-400 ml-1"
+          >CON</span
+        ></a
+      >
+      <h1 class="p-2 text-2xl font-semibold mb-1">Governor</h1>
+      <a
+        href="https://mikeparson.com/"
+        target="_blank"
+        class="hover:text-gray-900"
+        >Mike Parson<span
+          class="text-sm uppercase font-medium text-red-400 ml-1"
+          >REP</span
+        ></a
+      >
+      <a
+        href="https://nicolegalloway.com/"
+        target="_blank"
+        class="hover:text-gray-900"
+        >Nicole Galloway<span
+          class="text-sm uppercase font-medium text-blue-400 ml-1"
+          >DEM</span
+        ></a
+      >
+      <a
+        href="https://combsformissouri.org/"
+        target="_blank"
+        class="hover:text-gray-900"
+        >Rik Combs<span
+          class="text-sm uppercase font-medium text-yellow-400 ml-1"
+          >LIB</span
+        ></a
+      >
+      <a
+        href="https://www.facebook.com/pages/category/Public-Figure/Jerome-Bauer-Green-for-Missouri-Governor-354827564704728/"
+        target="_blank"
+        class="hover:text-gray-900"
+        >Jerome Howard Bauer<span
+          class="text-sm uppercase font-medium text-green-400 ml-1"
+          >GRE</span
+        ></a
+      >
+
+      <h1 class="p-2 text-2xl font-semibold mb-1">Lieutenant Governor</h1>
+      <a
+        href="https://www.mikekehoe.com/"
+        target="_blank"
+        class="hover:text-gray-900"
+        >Mike Kehoe<span class="text-sm uppercase font-medium text-red-400 ml-1"
+          >REP</span
+        ></a
+      >
+      <a
+        href="https://canadyformissouri.com/"
+        target="_blank"
+        class="hover:text-gray-900"
+        >Alissia Canady
+        <span class="text-sm uppercase font-medium text-blue-400 ml-1"
+          >DEM</span
+        ></a
+      >
+      <a
+        href="https://billslantz.com/"
+        target="_blank"
+        class="hover:text-gray-900"
+        >Bill Slantz<span
+          class="text-sm uppercase font-medium text-yellow-400 ml-1"
+          >LIB</span
+        ></a
+      >
+      <a
+        href="https://www.missourigreenparty.org/vote_for_kelley_dragoo"
+        target="_blank"
+        class="hover:text-gray-900"
+        >Kelley Dragoo<span
+          class="text-sm uppercase font-medium text-green-400 ml-1"
+          >GRE</span
+        ></a
+      >
+
+      <h1 class="p-2 text-2xl font-semibold mb-1">Secretary Of State</h1>
+      <a
+        href="http://ashcroftformissouri.com/"
+        target="_blank"
+        class="hover:text-gray-900"
+        >John R. (Jay) Ashcroft<span
+          class="text-sm uppercase font-medium text-red-400 ml-1"
+          >REP</span
+        ></a
+      >
+      <a
+        href="https://yinkafaleti.com/"
+        target="_blank"
+        class="hover:text-gray-900"
+        >Yinka Faleti<span
+          class="text-sm uppercase font-medium text-blue-400 ml-1"
+          >DEM</span
+        ></a
+      >
+      <a
+        href="https://www.facebook.com/CHF4Mo.SoS/"
+        target="_blank"
+        class="hover:text-gray-900"
+        >Carl Herman Freese<span
+          class="text-sm uppercase font-medium text-yellow-400 ml-1"
+          >LIB</span
+        ></a
+      >
+      <a
+        href="https://www.missourigreenparty.org/2020_candidates"
+        target="_blank"
+        class="hover:text-gray-900"
+        >Paul Lehmann<span
+          class="text-sm uppercase font-medium text-green-400 ml-1"
+          >GRE</span
+        ></a
+      >
+      <a
+        href="https://youwin.paulvenable.org/"
+        target="_blank"
+        class="hover:text-gray-900"
+        >Paul Venable<span
+          class="text-sm uppercase font-medium text-purple-400 ml-1"
+          >CON</span
+        ></a
+      >
+      <h1 class="p-2 text-2xl font-semibold mb-1">State Treasurer</h1>
+      <a
+        href="https://www.scottfitzpatrick.com/"
+        target="_blank"
+        class="hover:text-gray-900"
+        >Scott Fitzpatrick<span
+          class="text-sm uppercase font-medium text-red-400 ml-1"
+          >REP</span
+        ></a
+      >
+      <a
+        href="https://www.vickienglund.com/"
+        target="_blank"
+        class="hover:text-gray-900"
+        >Vicki Lorenz Englund<span
+          class="text-sm uppercase font-medium text-blue-400 ml-1"
+          >DEM</span
+        ></a
+      >
+      <a
+        href="https://www.facebook.com/nick.kasoff"
+        target="_blank"
+        class="hover:text-gray-900"
+        >Nicholas (Nick) Kasoff
+        <span class="text-sm uppercase font-medium text-yellow-400 ml-1"
+          >LIB</span
+        ></a
+      >
+      <a
+        href="https://www.missourigreenparty.org/vote_for_joe_civettini"
+        target="_blank"
+        class="hover:text-gray-900"
+        >Joseph Civettini<span
+          class="text-sm uppercase font-medium text-green-400 ml-1"
+          >GRE</span
+        ></a
+      >
+
+      <h1 class="p-2 text-2xl font-semibold mb-1">Attorney General</h1>
+      <a
+        href="https://schmittformissouri.com/"
+        target="_blank"
+        class="hover:text-gray-900"
+        >Eric Schmitt<span
+          class="text-sm uppercase font-medium text-red-400 ml-1"
+          >REP</span
+        ></a
+      >
+      <a
+        href="https://www.richfinneran.com/"
+        target="_blank"
+        class="hover:text-gray-900"
+        >Rich Finneran<span
+          class="text-sm uppercase font-medium text-blue-400 ml-1"
+          >DEM</span
+        ></a
+      >
+      <a
+        href="https://lpmo.org/about/candidates/"
+        target="_blank"
+        class="hover:text-gray-900"
+        >Kevin C Babcock
+        <span class="text-sm uppercase font-medium text-yellow-400 ml-1"
+          >LIB</span
+        ></a
+      >
+
+      <h1 class="p-2 text-2xl font-semibold mb-1">
+        U.S. Representative 5th District
+      </h1>
+      <a
+        href="https://ryanderks.com/"
+        target="_blank"
+        class="hover:text-gray-900"
+        >Ryan Derks<span class="text-sm uppercase font-medium text-red-400 ml-1"
+          >REP</span
+        ></a
+      >
+      <a
+        href="https://cleaver.house.gov/"
+        target="_blank"
+        class="hover:text-gray-900"
+        >Emanuel Cleaver II<span
+          class="text-sm uppercase font-medium text-blue-400 ml-1"
+          >DEM</span
+        ></a
+      >
+      <a
+        href="https://www.robindominick.com/"
+        target="_blank"
+        class="hover:text-gray-900"
+        >Robin Dominick
+        <span class="text-sm uppercase font-medium text-yellow-400 ml-1"
+          >LIB</span
+        ></a
+      >
+
+      <h1 class="pt-2 text-2xl font-semibold">State Senator</h1>
+      <h2 class="text-xl font-semibold mb-1">7th District</h2>
+      <a
+        href="https://www.house.mo.gov/MemberDetails.aspx?year=2020&code=R&district=025"
+        target="_blank"
+        class="hover:text-gray-900"
+        >Greg Razer<span
+          class="text-sm uppercase font-medium text-blue-400 ml-1"
+          >DEM</span
+        ></a
+      >
+      <a
+        href="https://www.missourigreenparty.org/vote_for_nathan_kline"
+        target="_blank"
+        class="hover:text-gray-900"
+        >Nathan Kline<span
+          class="text-sm uppercase font-medium text-green-400 ml-1"
+          >GRE</span
+        ></a
+      >
+      <h2 class="pt-1 text-xl font-semibold mb-1">9th District</h2>
+      <a
+        href="http://www.martinfor9.com/"
+        target="_blank"
+        class="hover:text-gray-900"
+        >David Martin<span
+          class="text-sm uppercase font-medium text-red-400 ml-1"
+          >REP</span
+        ></a
+      >
+      <a
+        href="https://house.mo.gov/MemberDetails.aspx?year=2018&code=R&district=023"
+        target="_blank"
+        class="hover:text-gray-900"
+        >Barbara Anne Washington
+        <span class="text-sm uppercase font-medium text-blue-400 ml-1"
+          >DEM</span
+        ></a
+      >
+      <h2 class="pt-1 text-xl font-semibold mb-1">11th District</h2>
+
+      <a
+        href="https://www.johnrizzo.org/"
+        target="_blank"
+        class="hover:text-gray-900"
+        >John Joseph Rizzo
+        <span class="text-sm uppercase font-medium text-blue-400 ml-1"
+          >DEM</span
+        ></a
+      >
+      <h1 class="pt-2 text-2xl font-semibold">State Representative</h1>
+      <h2 class="text-xl font-semibold mb-1">19th District</h2>
+      <a
+        href="https://house.mo.gov/MemberDetails.aspx?year=2020&code=R&district=019"
+        target="_blank"
+        class="hover:text-gray-900"
+        >Ingrid Burnett<span
+          class="text-sm uppercase font-medium text-blue-400 ml-1"
+          >DEM</span
+        ></a
+      >
+
+      <h2 class="pt-1 text-xl font-semibold mb-1">22nd District</h2>
+      <a
+        href="https://house.mo.gov/MemberDetails.aspx?year=2020&code=R&district=022"
+        target="_blank"
+        class="hover:text-gray-900"
+        >Yolanda Young<span
+          class="text-sm uppercase font-medium text-blue-400 ml-1"
+          >DEM</span
+        ></a
+      >
+      <h2 class="pt-1 text-xl font-semibold mb-1">23rd District</h2>
+
+      <a
+        href="https://www.facebook.com/mjkcmo23"
+        target="_blank"
+        class="hover:text-gray-900"
+        >Michael L. Johnson<span
+          class="text-sm uppercase font-medium text-blue-400 ml-1"
+          >DEM</span
+        ></a
+      >
+
+      <h2 class="pt-1 text-xl font-semibold mb-1">24th District</h2>
+
+      <a
+        href="https://www.emilyformissouri.com/"
+        target="_blank"
+        class="hover:text-gray-900"
+        >Emily Weber
+        <span class="text-sm uppercase font-medium text-blue-400 ml-1"
+          >DEM</span
+        ></a
+      >
+      <a
+        href="https://twitter.com/miller4mo"
+        target="_blank"
+        class="hover:text-gray-900"
+        >Andrew Miller<span
+          class="text-sm uppercase font-medium text-yellow-400 ml-1"
+          >LIB</span
+        ></a
+      >
+      <h2 class="pt-1 text-xl font-semibold mb-1">25th District</h2>
+
+      <a href="https://www.pattyformo.com/" target="_blank" class="hover:text-gray-900"
+        >Patty Lewis<span
+          class="text-sm uppercase font-medium text-blue-400 ml-1"
+          >DEM</span
+        ></a
+      >
+      <h2 class="pt-1 text-xl font-semibold mb-1">26th District</h2>
+
+      <a href=https://house.mo.gov/MemberDetails.aspx?year=2019&code=R&district=026" target="_blank" class="hover:text-gray-900"
+        >Ashley Bland Manlove<span
+          class="text-sm uppercase font-medium text-blue-400 ml-1"
+          >DEM</span
+        ></a
+      >
+      <h2 class="pt-1 text-xl font-semibold mb-1">27th District</h2>
+
+      <a href="https://house.mo.gov/MemberDetails.aspx?year=2018&district=027" target="_blank" class="hover:text-gray-900"
+        >Richard Brown<span
+          class="text-sm uppercase font-medium text-blue-400 ml-1"
+          >DEM</span
+        ></a
+      >
+      <h2 class="pt-1 text-xl font-semibold mb-1">28th District</h2>
+
+      <a href="https://house.mo.gov/MemberDetails.aspx?year=2020&code=R&district=028" target="_blank" class="hover:text-gray-900"
+        >Jerome Barnes<span
+          class="text-sm uppercase font-medium text-blue-400 ml-1"
+          >DEM</span
+        ></a
+      >
+      <h2 class="pt-1 text-xl font-semibold mb-1">29th District</h2>
+
+      <a href="https://house.mo.gov/MemberDetails.aspx?district=029&year=2017&code=R" target="_blank" class="hover:text-gray-900"
+        >Rory Rowland<span
+          class="text-sm uppercase font-medium text-blue-400 ml-1"
+          >DEM</span
+        ></a
+      >
+      <h2 class="pt-1 text-xl font-semibold mb-1">30th District</h2>
+      <a href="https://house.mo.gov/MemberDetails.aspx?year=2019&code=R&district=030" target="_blank" class="hover:text-gray-900"
+        >Jon Patterson<span
+          class="text-sm uppercase font-medium text-red-400 ml-1"
+          >REP</span
+        ></a
+      >
+      <a href="https://www.facebook.com/artschaaf4staterep/" target="_blank" class="hover:text-gray-900"
+        >Art Schaaf<span
+          class="text-sm uppercase font-medium text-blue-400 ml-1"
+          >DEM</span
+        ></a
+      >
+      <h2 class="pt-1 text-xl font-semibold mb-1">35th District</h2>
+      <a href="https://www.facebook.com/SeanSmithRep/" target="_blank" class="hover:text-gray-900"
+        >Sean Smith<span class="text-sm uppercase font-medium text-red-400 ml-1"
+          >REP</span
+        ></a
+      >
+      <a href="https://house.mo.gov/memberdetails.aspx?district=035&year=2020&code=R" target="_blank" class="hover:text-gray-900"
+        >Keri Ingle<span
+          class="text-sm uppercase font-medium text-blue-400 ml-1"
+          >DEM</span
+        ></a
+      >
+      <h2 class="pt-1 text-xl font-semibold mb-1">36th District</h2>
+      <a href="https://electnola.com/" target="_blank" class="hover:text-gray-900"
+        >Nola Wood<span class="text-sm uppercase font-medium text-red-400 ml-1"
+          >REP</span
+        ></a
+      >
+      <a href="https://house.mo.gov/MemberDetails.aspx?year=2020&code=R&district=036" target="_blank" class="hover:text-gray-900"
+        >Mark A. Sharp<span
+          class="text-sm uppercase font-medium text-blue-400 ml-1"
+          >DEM</span
+        ></a
+      >
+      <h2 class="pt-1 text-xl font-semibold mb-1">37th District</h2>
+      <a href="https://boydformissouri.com/" target="_blank" class="hover:text-gray-900"
+        >John D. Boyd, Jr.<span
+          class="text-sm uppercase font-medium text-red-400 ml-1"
+          >REP</span
+        ></a
+      >
+      <a href="https://www.facebook.com/AnnetteTurnbaughMO/" target="_blank" class="hover:text-gray-900"
+        >Annette Turnbaugh<span
+          class="text-sm uppercase font-medium text-blue-400 ml-1"
+          >DEM</span
+        ></a
+      >
+      <a href="https://www.missourigreenparty.org/vote_for_daniel_karam" target="_blank" class="hover:text-gray-900"
+        >Daniel Karam
+        <span class="text-sm uppercase font-medium text-green-400 ml-1"
+          >GRE</span
+        ></a
+      >
+      <h2 class="pt-1 text-xl font-semibold mb-1">56th District</h2>
+      <a href="https://www.davis.gop/" target="_blank" class="hover:text-gray-900"
+        >Michael Davis<span
+          class="text-sm uppercase font-medium text-red-400 ml-1"
+          >REP</span
+        ></a
+      >
+      <a href="https://www.barnesfor56th.com/" target="_blank" class="hover:text-gray-900"
+        >Neal Barnes<span
+          class="text-sm uppercase font-medium text-blue-400 ml-1"
+          >DEM</span
+        ></a
+      >
+      <h1 class="p-2 text-2xl font-semibold mb-1">
+        Prosecuting Attorney - Jackson County
+      </h1>
+      <a href="https://electtraceychappell.com/" target="_blank" class="hover:text-gray-900"
+        >Tracey Chappell<span
+          class="text-sm uppercase font-medium text-red-400 ml-1"
+          >REP</span
+        ></a
+      >
+      <a href="https://www.jacksoncountyprosecutor.com/180/Prosecutor-Jean-Peters-Baker" target="_blank" class="hover:text-gray-900"
+        >Jean Peters Baker<span
+          class="text-sm uppercase font-medium text-blue-400 ml-1"
+          >DEM</span
+        ></a
+      >
+
+      <h1 class="p-2 text-2xl font-semibold mb-1">Sheriff - Jackson County</h1>
+
+      <a href="https://www.facebook.com/forteforsheriff/" target="_blank" class="hover:text-gray-900"
+        >Darryl Forte'<span
+          class="text-sm uppercase font-medium text-blue-400 ml-1"
+          >DEM</span
+        ></a
+      >
+
+      <p>_______</p>
+      <h1 class="p-2 text-2xl font-semibold mb-1">
+        MISSOURI SUPREME COURT JUDGE
+      </h1>
+      <a href="https://www.courts.mo.gov/page.jsp?id=499" target="_blank" class="hover:text-gray-900"
+        >Shall Judge PATRICIA BRECKENRIDGE of the Missouri Supreme Court be
+        retained in office?</a
+      >
+      <h1 class="p-2 text-2xl font-semibold mb-1">
+        MISSOURI COURT OF APPEALS JUDGE, WESTERN DISTRICT
+      </h1>
+      <a href="https://www.courts.mo.gov/page.jsp?id=136173" target="_blank" class="hover:text-gray-900"
+        >Shall Judge TOM CHAPMAN of the Western District Court of Appeals be
+        retained in office?</a
+      >
+      <h1 class="pt-2 text-2xl font-semibold">
+        CIRCUIT JUDGES 16th Judicial Circuit
+      </h1>
+      <h2 class="text-xl font-semibold mb-1">Division No. 2</h2>
+
+      <a href="https://www.16thcircuit.org/division-2-judge-kenneth-r-garrett-iii" target="_blank" class="hover:text-gray-900"
+        >Shall Judge KENNETH R. GARRETT, III, Circuit Judge of Judicial Circuit
+        No. 16, be retained in office?</a
+      >
+      <h2 class="text-xl font-semibold mb-1">Division No. 10</h2>
+
+      <a href="https://www.16thcircuit.org/division-10-judge-patrick-w-campbell" target="_blank" class="hover:text-gray-900"
+        >Shall Judge PATRICK W. CAMPBELL, Circuit Judge of Judicial Circuit No.
+        16, be retained in office?</a
+      >
+      <h2 class="text-xl font-semibold mb-1">Division No. 14</h2>
+
+      <a href="https://www.16thcircuit.org/division-14-judge-john-m-torrence" target="_blank" class="hover:text-gray-900"
+        >Shall Judge JOHN M. TORRENCE, Circuit Judge of Judicial Circuit No. 16,
+        be retained in office?</a
+      >
+
+      <h2 class="text-xl font-semibold mb-1">Division No. 17</h2>
+
+      <a href="https://www.16thcircuit.org/biography-judge-cory-l-atkins" target="_blank" class="hover:text-gray-900"
+        >Shall Judge CORY L. ATKINS, Circuit Judge of Judicial Circuit No. 16,
+        be retained in office?</a
+      >
+      <h2 class="text-xl font-semibold mb-1">Division No. 18</h2>
+      <a href="https://www.16thcircuit.org/division-18-judge-kevin-d-harrell" target="_blank" class="hover:text-gray-900"
+        >Shall Judge KEVIN D. HARRELL, Circuit Judge of Judicial Circuit No. 16,
+        be retained in office?
+      </a>
+      <h2 class="text-xl font-semibold mb-1">Division No. 28</h2>
+      <a href="https://www.16thcircuit.org/biography-judge-jeffrey-keal" target="_blank" class="hover:text-gray-900"
+        >Shall Judge JEFFREY C. KEAL, Associate Circuit Judge of Judicial Circuit No. 16, be retained
+in office?
+      </a>
+      <h2 class="text-xl font-semibold mb-1">Division No. 29</h2>
+      <a href="https://www.16thcircuit.org/biography-Division-29" target="_blank" class="hover:text-gray-900"
+        >Shall Judge JANETTE KAY RODECAP, Associate Circuit Judge of Judicial
+        Circuit No. 16, be retained in office?
+      </a>
+      <h2 class="text-xl font-semibold mb-1">Division No. 32</h2>
+      <a href="https://www.16thcircuit.org/biography-division32" target="_blank" class="hover:text-gray-900"
+        >Shall Judge KYNDRA J. STOCKDALE, Associate Circuit Judge of Judicial
+        Circuit No. 16, be retained in office?
+      </a>
+
+      <p>_______</p>
+      <h1 class="pt-2 text-2xl font-semibold">Constitutional Amendments</h1>
+      <h2 class="text-xl font-semibold">
+        <a
+          href="https://ballotpedia.org/Missouri_Amendment_1,_State_Executive_Term_Limits_Amendment_(2020)"
+          class="hover:text-gray-900 underline"
+          target="_blank"
+          >Amendment 1</a
+        >
+      </h2>
+      <p class="text-sm w-2/3">
+        Do you want to amend the Missouri Constitution to extend the two term
+        restriction that currently applies to the Governor and Treasurer to the
+        Lt. Governor, Secretary of State, Auditor and the Attorney General?
+        State and local governmental entities estimate no costs or savings from
+        this proposal.
+      </p>
+      <div class="flex justify-between space-x-2">
+        <a class="hover:text-gray-900">Yes</a>
+        <a class="hover:text-gray-900">No</a>
+      </div>
+      <h2 class="text-xl font-semibold">Amendment 3</h2>
+      <p class="text-sm">Shall the Missouri Constitution be amended to:</p>
+      <ul class="list-disc list-inside text-sm w-2/3">
+        <li>
+          Ban gifts from paid lobbyists to legislators and their employees;
+        </li>
+        <li>Reduce legislative campaign contribution limits;</li>
+        <li>
+          Change the redistricting process voters approved in 2018 by: (i)
+          transferring responsibility for drawing state legislative districts
+          from the Nonpartisan State Demographer to Governor-appointed
+          bipartisan commissions; (ii) modifying and reordering the
+          redistricting criteria.
+        </li>
+      </ul>
+      <p class="text-sm mb- w-2/3">
+        State governmental entities expect no cost or savings. Individual local
+        governmental entities expect significant decreased revenues of a total
+        unknown amount.
+      </p>
+
+      <div class="flex justify-between space-x-2">
+        <a
+          href="https://mofb.org/yeson3/"
+          target="_blank"
+          class="hover:text-gray-900 underline"
+          >Yes</a
+        >
+        <a
+          href="https://www.cleanmissouri.org/"
+          target="_blank"
+          class="hover:text-gray-900 underline"
+          >No</a
+        >
+      </div>
+      <p>_______</p>
+      <h1 class="pt-2 text-2xl font-semibold">General Election</h1>
+      <h2 class="text-xl font-semibold">
+        <a
+          href="https://www.jacksongov.org/DocumentCenter/View/7137/What-to-Know-About-Question-1-Proposed-Change-to-911-Funding-Mechanism-in-Jackson-County"
+          target="_blank"
+          class="hover:text-gray-900 underline"
+        >
+          Question 1</a
+        >
+      </h2>
+      <p class="text-sm w-2/3">
+        Shall Jackson County, Missouri, impose a monthly fee not to exceed $1.00
+        (one dollar) on a subscriber of any communications service that has been
+        enabled to contact 911 for the purpose of funding 911 service in the
+        County? The proceeds of this fee shall be deposited in the County’s
+        special E-911 System Fund and not comingled with the general funds of
+        the County, to be expended solely for the purpose set forth herein.
+      </p>
+      <div class="flex justify-between space-x-2">
+        <a class="hover:text-gray-900">Yes</a>
+        <a class="hover:text-gray-900">No</a>
+      </div>
+      <h2 class="text-xl font-semibold">Question 2</h2>
+      <img
+        src="https://fox4kc.com/wp-content/uploads/sites/16/2019/12/andrew-jackson-statues.jpg?w=1280"
+        class="w-2/3 rounded-xl mb-2 shadow"
+        alt="Statues of Andrew Jackson"
+      />
+      <p class="text-sm w-2/3">
+        Shall Jackson County, Missouri, remove the statues of Andrew Jackson now
+        located outside the Jackson County Courthouse in Kansas City and the
+        Historic Truman Courthouse in Independence?
+      </p>
+      <div class="flex justify-between space-x-2">
+        <a class="hover:text-gray-900">Yes</a>
+        <a class="hover:text-gray-900">No</a>
+      </div>
+      <p>_______</p>
+    </div>
+    <footer class="text-center text-sm italic">
+      Based on Jackson County, MO. Created By
+      <a
+        href="https://alexandergilbertson.com"
+        target="_blank"
+        class="underline hove:no-underline hover:text-gray-900"
+      >
+        Alexander Gilbertson</a
+      >
+    </footer>
+
+    <script src="index.js"></script>
+  </body>
+</html>
